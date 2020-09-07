@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookaholic</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content left">
+        <ul id="books-list"></ul>
+      </div>
+
+      <div class="content book-form">
+        <div class="form-group">
+          <label class="label" for="">Name</label>
+          <input
+            class="input name"
+            type="text"
+            name="name"
+            placeholder="Enter book's name..."
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="label" for="">Author</label>
+          <input
+            class="input author"
+            type="text"
+            name="author"
+            placeholder="Enter author..."
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="label" for="">Year</label>
+          <input
+            class="input year"
+            type="text"
+            name="year"
+            placeholder="Enter year..."
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="label" for="">Origin</label>
+          <input
+            class="input origin"
+            type="text"
+            name="origin"
+            placeholder="Enter origin..."
+          />
+        </div>
+
+        <div class="form-group">
+          <button
+            class="createBook"
+            type="button"
+            name="button"
+            onclick="submitClickHandle()"
+          >
+            Add
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+  <script src="validation.js"></script>
+</html>
